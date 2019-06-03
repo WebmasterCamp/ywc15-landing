@@ -13,7 +13,7 @@
     "export": "next export"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": ">=0.19.0",
     "express": "^4.15.3",
     "flatpickr": "^3.0.7",
     "http-proxy": "^1.16.2",
