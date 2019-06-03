@@ -8,4 +8,10 @@ module.exports = {
     }));
     return config;
   },
+  async exportPathMap() {
+    // combine the map of post pages with the home
+    return {
+      '/': { page: '/landing' }
+    };
+  }
 };
